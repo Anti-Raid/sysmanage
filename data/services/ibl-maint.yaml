@@ -1,5 +1,5 @@
-cmd: /usr/bin/cat
-dir: /root
+cmd: ' /usr/local/bin/uvicorn maint_stub:app'
+dir: /root/system
 target: antiraid
 description: ibl-maint stub
 after: network
