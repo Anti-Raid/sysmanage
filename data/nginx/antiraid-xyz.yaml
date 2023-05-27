@@ -1,1 +1,10 @@
 servers:
+    - id: Main_Website
+      names:
+        - '@root'
+      comment: This is the primary website.
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:80
+          opts: []
