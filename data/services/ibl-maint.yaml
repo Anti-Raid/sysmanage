@@ -1,4 +1,4 @@
-cmd: /usr/bin/true
+cmd: /usr/bin/cat
 dir: /root
 target: antiraid
 description: ibl-maint stub
