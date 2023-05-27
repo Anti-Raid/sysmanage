@@ -17,3 +17,4 @@ servers:
         - path: /
           proxy: http://localhost:7322
           opts: []
+real_name: select-list.xyz
