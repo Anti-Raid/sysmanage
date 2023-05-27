@@ -17,3 +17,12 @@ servers:
         - path: /
           proxy: http://localhost:9527
           opts: []
+    - id: Blog
+      names:
+        - blog
+      comment: Official blog for Antiraid
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:3000
+          opts: []
