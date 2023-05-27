@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm start
+dir: /select/Azidoazide/prod-api
+target: azidoazide
+description: Official API for Azidoazide services.
+after: ibl-maint
+broken: false
+user: select
+group: ""
