@@ -1,20 +1,6 @@
-cmd: /root/sysmanage-ibl/sysmanage-ibl
-dir: /root/sysmanage-ibl
-target: ibl
+cmd: /root/system/sysmanage-ibl/sysmanage-ibl
+dir: /root/system/sysmanage-ibl
+target: antiraid
 description: System Management [v4]
-after: ibl-maint
+after: network
 broken: false
-git:
-    repo: https://github.com/infinitybotlist/github.com/infinitybotlist/sysmanage-web
-    ref: refs/heads/main
-    build_commands:
-        - cd frontend
-        - npm i
-        - npm run build
-        - cd ..
-        - go build -v
-    env:
-        CGO_ENABLED: "0"
-    allow_dirty: true
-    config_files:
-        - config.yaml
