@@ -8,3 +8,12 @@ servers:
         - path: /
           proxy: http://localhost:80
           opts: []
+    - id: API
+      names:
+        - api
+      comment: This is the API for AntiRaid v6.
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:9527
+          opts: []
