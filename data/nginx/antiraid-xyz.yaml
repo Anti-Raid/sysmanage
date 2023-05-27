@@ -21,8 +21,44 @@ servers:
       names:
         - blog
       comment: Official blog for Antiraid
-      broken: false
+      broken: true
       locations:
         - path: /
           proxy: http://localhost:3000
+          opts: []
+    - id: Logs
+      names:
+        - logs
+      comment: Official logging system for Antiraid
+      broken: true
+      locations:
+        - path: /
+          proxy: http://localhost:8890
+          opts: []
+    - id: GitHub_WS
+      names:
+        - github-ws
+      comment: Official WS API for Vocid. This should only be used by GitHub for events.
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:2297
+          opts: []
+    - id: Vishanti
+      names:
+        - vishanti
+      comment: I'm not gonna even lie, i do not know what the fuck this is.
+      broken: true
+      locations:
+        - path: /
+          proxy: http://localhost:8080
+          opts: []
+    - id: Sysmanage
+      names:
+        - sysmanage
+      comment: System Manager for Antiraid/Select List services.
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:1234
           opts: []
