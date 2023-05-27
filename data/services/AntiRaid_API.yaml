@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm start
+dir: /root/api-v2
+target: antiraid
+description: Official API for AntiRaid
+after: ibl-maint
+broken: false
+user: ""
+group: ""
