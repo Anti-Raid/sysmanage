@@ -53,12 +53,13 @@ servers:
         - path: /
           proxy: http://localhost:8080
           opts: []
-    - id: Sysmanage
+    - id: System
       names:
-        - sysmanage
+        - system
       comment: System Manager for Antiraid/Select List services.
       broken: false
       locations:
         - path: /
           proxy: http://localhost:1234
           opts: []
+real_name: ""
