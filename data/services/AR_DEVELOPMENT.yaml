@@ -1,7 +1,7 @@
 cmd: /usr/bin/npm start
 dir: /root/antiraid-tests
 target: antiraid
-description: Official test build for Antiraid v6
+description: Official test build for Antiraid v5
 after: ibl-maint
 broken: false
 user: ""
