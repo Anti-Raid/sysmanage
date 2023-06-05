@@ -1,8 +1,0 @@
-cmd: /usr/bin/npm start
-dir: /home/select/Select List/bromladide
-target: selectlist
-description: A staff onboarding bot for Select List. Simplifies the process by guiding new staff through selectable options for efficient and user-friendly onboarding.
-after: ibl-maint
-broken: false
-user: select
-group: ""
