@@ -62,4 +62,13 @@ servers:
         - path: /
           proxy: http://localhost:1234
           opts: []
+    - id: Maint
+      names:
+        - maint
+      comment: 'Maintenance Page '
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:2474
+          opts: []
 real_name: ""
